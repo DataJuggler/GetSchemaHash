@@ -301,7 +301,7 @@ namespace DataJuggler.Net.NugetDemo
             {
                 // Setup the listeners
                 this.SchemaHashControl.OnTextChangedListener = this;
-                this.SchemaHashControl.OnTextChangedListener = this;
+                this.CommitTextBox.OnTextChangedListener = this;
 
                 // set the connection string value if set
                 this.ConnectionStringControl.Text = ConfigurationHelper.ReadAppSetting("Connectionstring");
