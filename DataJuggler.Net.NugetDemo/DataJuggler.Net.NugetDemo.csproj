@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Data Juggler.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="DataJuggler.Core.UltimateHelper, Version=1.3.9.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\DataJuggler.Core.UltimateHelper.1.3.9\lib\net461\DataJuggler.Core.UltimateHelper.dll</HintPath>
@@ -98,6 +101,7 @@
     <Content Include="lib\DataJuggler.Win.Controls Read Me.txt" />
     <None Include="Resources\WoodButtonWidth2560.png" />
     <None Include="Resources\Deep Black.jpg" />
+    <None Include="Resources\WoodButtonWidth2560Disabled.png" />
     <Content Include="Tools.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

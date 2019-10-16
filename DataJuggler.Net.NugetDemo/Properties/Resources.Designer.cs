@@ -79,5 +79,15 @@ namespace DataJuggler.Net.NugetDemo.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WoodButtonWidth2560Disabled {
+            get {
+                object obj = ResourceManager.GetObject("WoodButtonWidth2560Disabled", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
